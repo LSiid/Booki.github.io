@@ -616,7 +616,7 @@ FORMAT MOBILE
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        margin: 0 20px
+        margin: 0 5px
     }
 
     .recherche_section p {
@@ -626,6 +626,10 @@ FORMAT MOBILE
 
     .recherche_section h1 {
         margin-top: 30px;
+    }
+
+    #villes_form {
+        width: 100%;
     }
 
     form button {
@@ -671,7 +675,7 @@ FORMAT MOBILE
     .filtres_box {
         padding-left: 0;
         flex-wrap: wrap;
-        gap: 17px;
+        gap: 14px;
         justify-content: space-between;
     }
 
@@ -689,7 +693,6 @@ FORMAT MOBILE
 
 
     .populaires_aside {
-        max-width: 100%;
         border-radius: 0;
         flex-direction: column;
         padding: 30px 20px 47px;
@@ -706,9 +709,10 @@ FORMAT MOBILE
 
     .populaires_article p {
         font-size: 14px;
+        margin-bottom: 6px;
     }
     .populaires_texte {
-        padding-left: 15px;
+        padding-left: 5px;
     }
 
     .images_populaires {
